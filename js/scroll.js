@@ -1,4 +1,4 @@
-let header = document.querySelector('.header')
+let header = document.querySelector('.container')
 document.addEventListener('click', (item) => {
     if (item.target.classList.contains('header_nav--link')) {
         let dataAttribute = item.target.getAttribute('data-id')
